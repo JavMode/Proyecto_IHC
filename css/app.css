@@ -1,0 +1,123 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+/** Utilidades **/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/** Barra de navegacion **/
+.contenedor-navegacion{
+    background-color: #fe001a;
+    padding: 2rem;
+    border-bottom: 1px solid #fff;
+}
+.nav-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-principal a{
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+}
+.buscar input{
+    width: 80rem;
+    height: 4rem;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 3rem;
+}
+.contenedor-navegacion-barra{
+    background-color: #fe001a;
+    padding: 1rem;
+}
+.navegacion-categorias{
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-categorias a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/** Main **/
+.contenedor-productos{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.contenedor-productos h1{
+    text-align: center;
+}
+.lista-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.lista-productos img{
+    width: 30rem;
+    height: 20rem;
+}
+
+
+/** Footer **/
+.site-footer{
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+}
+.site-footer h3{
+    margin-bottom: .5rem;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-top: 5rem;
+}
+
+.footer-menu a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 2;
+}
+
+.copyright{
+    margin-top: 5rem;
+    text-align: center; 
+}
