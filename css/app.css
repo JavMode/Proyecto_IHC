@@ -38,7 +38,7 @@ img{
 /** Barra de navegacion **/
 .contenedor-navegacion{
     background-color: #fe001a;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: 1px solid #fff;
 }
 .nav-principal{
@@ -120,4 +120,50 @@ img{
 .copyright{
     margin-top: 5rem;
     text-align: center; 
+}
+
+/** Perfil **/
+.contenedor-perfil{
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 8rem;
+}
+.pagina-perfil{
+    background-color: #fe001a;
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pagina-perfil ion-icon{
+    font-size: 20rem;
+    color: #fff;
+}
+.pagina-perfil input{
+    width: 30rem;
+    height: 4rem;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 3rem;
+}
+.pagina-perfil button{
+    color: #fe001a;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    transition: background-color .3s ease-out;
+}
+.pagina-perfil button:hover{
+    background-color: #fe001a;
+    color: #fff;
+    cursor: pointer;
+}
+.pagina-perfil a{
+    text-decoration: none;
+    color: #fff;
 }
