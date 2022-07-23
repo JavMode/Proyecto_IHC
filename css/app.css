@@ -52,6 +52,9 @@ img{
     color: white;
     font-size: 5rem;
 }
+.buscar{
+    display: flex;
+}
 .buscar input{
     width: 80rem;
     height: 4rem;
@@ -60,7 +63,21 @@ img{
     color: black;
     outline: none;
     border: 1px solid #e1e1e1;
-    border-radius: 3rem;
+    border-start-start-radius: 3rem;
+    border-end-start-radius: 3rem;
+}
+.btn-buscar{
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    color:rgb(146, 139, 139);
+    font-size: 4rem;
+    border-start-end-radius: 3rem;
+    border-end-end-radius: 3rem;
+    cursor: pointer;
 }
 .contenedor-navegacion-barra{
     background-color: #fe001a;
@@ -108,6 +125,7 @@ img{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-top: 5rem;
+    text-align: center;
 }
 
 .footer-menu a{
@@ -166,4 +184,42 @@ img{
 .pagina-perfil a{
     text-decoration: none;
     color: #fff;
+}
+
+/** Registrar **/
+.contenedor-registrar{
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 8rem;
+}
+.pagina-registrar{
+    background-color: #fe001a;
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pagina-registrar input{
+    width: 50rem;
+    height: 4rem;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 3rem;
+}
+.pagina-registrar button{
+    color: #fe001a;
+    border: 1px solid;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    transition: background-color .3s ease-out;
+}
+.pagina-registrar button:hover{
+    background-color: #fe001a;
+    color: #fff;
+    cursor: pointer;
 }
