@@ -25,40 +25,33 @@
             </a>
         </div>
     </div>
-    <main class="contenedor-carrito contenedor">
-        <div class="carrito">
-            <h2>Carrito</h2>
-            <div class="carrito-producto">
-                <p class="carrito-p">Producto</p>
-                <div class="carrito-producto-info">
-                    <p>Precio: S/. 4.99</p>
-                    <div class="cantidad">
-                        <button>-</button>
-                        <p>Cant: 2</p>
-                        <button>+</button>
-                    </div>
+    <main class="contenedor-pago contenedor">
+        <div class="pago">
+            <div class="form">
+                <div class="campo">
+                    <select>
+                        <option selected>Método de pago</option>
+                        <option>Visa</option>
+                        <option>MasterCard</option>
+                    </select>
                 </div>
-            </div>
-            <div class="carrito-producto">
-                <p class="carrito-p">Producto</p>
-                <div class="carrito-producto-info">
-                    <p>Precio: S/. 4.99</p>
-                    <div class="cantidad">
-                        <button>-</button>
-                        <p>Cant: 1</p>
-                        <button>+</button>
-                    </div>
+                <div class="campo">
+                    <input type="text" placeholder="Número de Tarjeta">
                 </div>
-            </div>
-            <div class="carrito-producto">
-                <p class="carrito-p">Producto</p>
-                <div class="carrito-producto-info">
-                    <p>Precio: S/. 4.99</p>
-                    <div class="cantidad">
-                        <button>-</button>
-                        <p>Cant: 4</p>
-                        <button>+</button>
-                    </div>
+                <div class="campo">
+                    <input type="text" placeholder="MM/AA">
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder="CVV">
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="campo">
+                    <input type="email" placeholder="Email">
                 </div>
             </div>
         </div>
@@ -75,7 +68,7 @@
             <div class="detalles-total">
                 <p>Total</p>
             </div>
-            <button onclick="location.href='pago.html'">Proceder al pago</button>
+            <button onclick="location.href='index.html'">Proceder al pago</button>
         </div>
     </main>
 </body>

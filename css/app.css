@@ -297,3 +297,106 @@ img{
     width: 100%;
     height: 20rem;
 }
+
+/** Carrito **/
+
+.contenedor-carrito{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+}
+.carrito{
+    border: 1px solid #000;
+    border-radius: 2rem;
+    padding: 3rem;
+    background-color: #e1e1e1;
+}
+.carrito-producto{
+    padding-left: 5rem;
+    border-bottom: 1px solid #000;
+    line-height: 0.8;
+}
+.carrito-producto:nth-child(4){
+    border: none;
+}
+.carrito-p{
+    font-size: 3rem;
+}
+.carrito-producto-info{
+    display: flex;
+    justify-content: space-between;
+}
+.cantidad{
+    display: flex;
+}
+.cantidad button{
+    background-color: #fe001a;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.8rem;
+    border-radius: 50%;
+    transition: background-color .3s ease-out;
+    height: 4rem;
+    width: 4rem;
+}
+.cantidad button:hover{
+    background-color: #fff;
+    color: #fe001a;
+    cursor: pointer;
+}
+.carrito-detalles{
+    border: 1px solid #000;
+    border-radius: 2rem;
+    padding: 3rem;
+    background-color: #fe001a;
+    color: #fff;
+    height: 40rem;
+}
+.detalles{
+    border-bottom: 1px solid #000;
+    margin-bottom: 6rem;
+}
+.detalles-info{
+    border-bottom: 1px solid #000;
+}
+.carrito-detalles button{
+    background-color: #e1e1e1;
+    color: #000;
+    border: 1px solid;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    transition: background-color .3s ease-out;
+    margin-left: 14rem;
+}
+.carrito-detalles button:hover{
+    background-color: #fe001a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/** Pago **/
+
+.contenedor-pago{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+}
+.pago{
+    border: 1px solid #000;
+    border-radius: 2rem;
+    padding: 3rem;
+    background-color: #e1e1e1;
+}
+.form input, select{
+    margin: 1rem;
+    width: 60rem;
+    height: 4rem;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 1.5rem;
+}
